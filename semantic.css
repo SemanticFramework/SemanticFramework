@@ -25,7 +25,7 @@ body {
   font-size: 1.5em;
   line-height: 1.6;
   font-weight: 400;
-  font-family: sans-serif;
+  font-family: Helvetica, sans-serif;
   color: #222;
   margin:0;
   padding:0;
@@ -63,18 +63,70 @@ body {
   text-align:justify;
 }
 
-header, main, footer {
+header, main {
   width:100%;
   margin-top:20px;
 }
 
 
-.solid {
-  background-color:#000;
+header.solid {
+  background-color:#242924;
   color:#fff;
   margin:0;
   padding:0 auto;
 }
+
+/* Footer : Style for the footer */
+
+footer {
+  width:100%;
+  margin-top:20px;
+  padding-bottom:20px;
+}
+
+footer ul, li {
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+
+footer a {
+  color:inherit;
+}
+
+footer.solid {
+  background-color:#242924;
+  color:#fff;
+  margin:0;
+  padding:0 auto;
+}
+
+/* Nav : Style for the Nav Bars */
+
+nav ul {
+  display:inline-block;
+  list-style:none;
+  padding:0;
+}
+
+nav li {
+  display:inline-block;
+  margin-right:30px;
+}
+
+nav li:last-child {
+  margin-right:0;
+}
+
+nav li a {
+  text-decoration:none;
+  color:inherit;
+}
+
+nav li a:hover {
+  text-decoration:underline;
+}
+
 
 /* Desktop: For devices larger than 550px */
 @media (min-width: 850px) {

@@ -5,3 +5,5 @@
 ## Using Semantic
 
 To use the semantic framework, simply download a copy of the .css file and include it into your HTML page.
+
+An example page can be seen here: https://bobbydilley.github.io/SemanticFramework/index.html
